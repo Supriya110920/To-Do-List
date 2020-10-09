@@ -1,0 +1,150 @@
+body{
+    background-image: url(background.jpg);
+    background-size: auto;
+
+}
+.container{
+    position: absolute;
+    height: 35pc;
+    width: 25pc;
+    background-blend-mode: blur(8px);
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    backdrop-filter: blur(10px);
+    border: 3px solid rgb(2, 2, 36);
+    box-shadow: 0 0  35px rgb(113, 119, 175);
+    border-radius: 10px;
+
+
+}
+.addtxt{
+    position: absolute;
+    height: 5px;
+    width: 68%;
+    top: 10px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    padding: 20px;
+    padding-right: 50px;
+    outline: none;
+    background: rgb(134, 146, 185);
+    font-size: 15px;
+}
+.addbtn{
+    position: absolute;
+    width: 40px;
+    margin: auto;
+    top: 15px;
+    right: 30px;
+    cursor: pointer;
+    height: 40px;
+    background: rgb(5, 24, 65);
+    outline: none;
+    border-radius: 50%;
+    font-size: 30px;
+    color: wheat;
+
+
+}
+.list{
+    position: absolute;
+    height: 75%;
+    width: 100%;
+    margin: auto;
+    right: 0;left: 0;bottom: 0;
+    top: 25px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.list::-webkit-scrollbar{
+    -webkit-appearance: none;
+    appearance: none;
+}
+.elements{
+    position: relative;
+    height: 25px;
+    width: 68%;
+    margin: 15px;
+    right: 0;
+    left: 5px;
+    text-align: left;
+    transition: 0.2s;
+    background: rgb(135, 163, 222);
+    padding: 10px;
+    cursor: pointer;
+    padding-right: 80px;
+    border-radius: 5px;
+    word-wrap: break-word;
+    
+
+}
+.elements:hover{
+    transform: scale(1.05);
+}
+.done{
+    position: absolute;
+    margin: auto;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    right: 50px;
+
+
+}
+.done:hover{
+    transform: scale(1.1);
+}
+
+.delet{
+    position: absolute;
+    margin: auto;
+    height: 30px;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+
+}
+.delet:hover{
+    transform: scale(1.1);
+}
+.reset{
+    position: absolute;
+    width: 40px;
+    margin: auto;
+    top: -42px;
+    right: 0px;
+    cursor: pointer;
+    height: 40px;
+    background: rgb(240, 26, 11);
+    outline: none;
+    border-radius: 10%;
+    font-size: 30px;
+    color: burlywood;
+
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+h2{
+    position: absolute;
+    top: 45px;
+    left: 170px;
+    color:white;
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(17, 1, 1);
+  color: white;
+  text-align: center;
+
+}
+
